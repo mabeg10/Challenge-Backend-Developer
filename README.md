@@ -166,6 +166,7 @@ What strategy should you use to store and access these credentials? SELECT ONLY 
 My answer: 4) Put them in a .env file, load data from it into a configuration system, then request the credentials from a database service provider.
 
 Example:
+
 Bash:
  # .env
 DB_USER=root
