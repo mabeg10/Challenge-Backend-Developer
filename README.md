@@ -1,11 +1,11 @@
 # Challenge-Backend-Developer
 This repository contains the answers to the challenge by María Belén Guzmán.
 
-1. You're building a high-throughput API for a cryptocurrency trading platform. For this platform, time is extremely important because microseconds count when processing high-volume trade orders. For communicating with the API, you want to choose the verb that is fastest for read-only operations.
+**1. You're building a high-throughput API for a cryptocurrency trading platform. For this platform, time is extremely important because microseconds count when processing high-volume trade orders. For communicating with the API, you want to choose the verb that is fastest for read-only operations.
 What verb should you choose for retrieving trade orders with the API server?
 SELECT ONLY ONE
 
-My answer: 1) GET
+My answer: 1) GET**
 
 Example:
 
