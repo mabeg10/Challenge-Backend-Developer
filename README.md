@@ -68,7 +68,7 @@ Example:
 const express = require('express');
 const app = express();
 
-// Simulación de usuarios
+
 const users = [
   { username: 'user one', password: 'password123' }
 ];
@@ -170,7 +170,7 @@ class ProductParser {
 
 
 
-9. There are multiple places in your codebase that need to access the
+8. There are multiple places in your codebase that need to access the
 database. To access the database, you need to supply credentials. You want to balance security with useability.
 What strategy should you use to store and access these credentials? SELECT ONLY ONE
 My answer: 4) Put them in a .env file, load data from it into a configuration system, then request the credentials from a database service provider.
